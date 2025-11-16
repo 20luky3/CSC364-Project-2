@@ -1,0 +1,8 @@
+41a42,48
+> 
+>     // check malloc worked properly for rec->scores
+>     if (!rec->scores) {
+>         free(rec);
+>         return 0;
+>     }
+> 

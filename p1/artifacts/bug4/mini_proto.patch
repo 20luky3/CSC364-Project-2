@@ -1,0 +1,7 @@
+31a32,37
+>     // rec->name could be overflowed if name_len is too large
+>     if (name_len >= MAX_NAME) {
+>         free(rec);
+>         return 0;
+>     }
+> 

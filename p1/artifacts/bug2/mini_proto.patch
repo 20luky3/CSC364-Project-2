@@ -1,0 +1,3 @@
+7a8,9
+>     // 2 * rec->score_count could overflow size_t space
+>     if (rec->score_count > SIZE_MAX / 2) return 0;

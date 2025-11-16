@@ -1,0 +1,4 @@
+51a52
+>     rec->scores = NULL;
+52a54
+>     rec = NULL;

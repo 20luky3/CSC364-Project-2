@@ -1,0 +1,5 @@
+7c7,8
+<     size_t name_len = strlen(rec->name);
+---
+>     // use safer strnlen function instead of strlen
+>     size_t name_len = strnlen(rec->name, MAX_NAME);

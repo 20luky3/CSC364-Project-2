@@ -1,0 +1,4 @@
+11a12,14
+>     // prevent buffer overflow if required space is greater than size of out_buf
+>     if (space > out_cap) return 0;
+> 
